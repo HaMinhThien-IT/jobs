@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/f20d460fd9.js" crassarigin="anonymou"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- <link rel="stylesheet" href="slide.css"> -->
+
+    <!-- <link rel="stylesheet" type="text/css" href="font-awesome.css"> -->
+
+    <!-- <link rel="stylesheet" href="templatemo-lava.css"> -->
+
+    <!-- <link rel="stylesheet" href="owl-carousel.css"> -->
+
+    <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+
+</head>
+
+<body>
+    <div class="logo">
+        <div class="sloganLogo">
+            <marquee width="1050" direction="right">Chung tay xây dựng một “Cuộc sống không nước mắt”</marquee>
+        </div>
+        <div class="bgLogo">
+            <a href="#sectionTrangChu">
+                <img class="img_logo" src="./img/logo.png" alt="">
+            </a>
+        </div>
+    </div>
+
+    <div class="header" id="sectionTrangChu">
+        <img class="backgroud" src="./img/bgbanhang2.jpg" alt="">
+
+
+
+        <div class="container">
+            <h1 class="title-container">Đăng ký đặt hàng ngay!</h1>
+            <div class="form_dat_hang">
+                <div class="form-control">
+                    <input type="text" id="ho_ten" placeholder="Họ tên" />
+                    <span></span>
+                    <small></small>
+                </div>
+                <div class="form_gioi_tinh">
+                    <input class="ip_nam" checked="checked" name="gender" type="radio" value="Nam" />
+                    <label for="nam">Nam</label>
+                    <input class="ip_nu" name="gender" type="radio" value="famale" />
+                    <label for="nu">Nữ</label>
+                    <input class="ip_khac" name="gender" type="radio" value="other" />
+                    <label for="khac">Khác</label>
+                </div>
+                <div class="form-control">
+                    <input type="email" id="email" placeholder="Email" />
+                    <span></span>
+                    <small></small>
+                </div>
+                <div class="form-control">
+                    <input type="text" id="address" placeholder="Địa chỉ" />
+                    <span></span>
+                    <small></small>
+                </div>
+                <div class="form-control">
+                    <input type="number" id="sdt" placeholder="Số điện thoại" />
+                    <span></span>
+                    <small></small>
+                </div>
+                <div class="form-control">
+                    <input type="number" id="soLuong" placeholder="Số lượng" />
+                    <span></span>
+                    <small></small>
+                </div>
+                <div class="form-thanh-toan">
+                    <input class="thanhToanOn" name="thanhtoan" type="radio" id="checkbox"
+                        value="thanh_toan_onl" />Thanh toán chuyển khoản
+                </div>
+                <div class="form-thanh-toan">
+                    <input class="thanhToanTn" name="thanhtoan" type="radio" value="thanh_toan_khi_nhan_hang" />Thanh
+                    toán khi nhận hàng
+                </div>
+                <input onclick="popupDangNhap()" type="submit" value="Đặt hàng" />
+            </div>
+        </div>
+    </div>
+
+    <div class="tacHai">
+        <img src="img/tachai.jpg" alt="">
+    </div>
+
+    <div class="image-slider">
+        <div class="image-item">
+            <div class="image">
+                <img src="img/banner1.jpg" alt="" />
+            </div>
+
+        </div>
+        <div class="image-item">
+            <div class="image">
+                <img src="img/banner2.jpg" alt="" />
+            </div>
+
+        </div>
+        <div class="image-item">
+            <div class="image">
+                <img src="img/banner3.jpg" alt="" />
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="tu-thien">
+       
+    </div>
+
+    <div class="showDuLieu">
+        <div class="titleGioiThieu">
+            Mỗi một chip Waveex được bán ra bạn sẽ cùng Visafe Đắk Lắk góp 20 nghìn đồng vào Quỹ của Trung tâm bảo trợ
+            xã hội tỉnh Đắk Lắk
+        </div>
+        <div class="contentShow">
+            <div class="showChung showTien">
+                <div class="show_title_chung descMoney">
+                    
+                        SỐ TIỀN ĐÃ QUYÊN GÓP
+                   
+                </div>
+    
+                <div class="show_main_chung ">
+                    580.000đ
+                </div>
+                
+            </div>
+            <div class="showChung showSoLuong">
+                <div class="show_title_chung descQuantity">
+                  
+                        SỐ CHIP WAVEEX ĐÃ BÁN
+                 
+                </div>
+                <div class="show_main_chung ">
+                    29
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <div class="videounbox">
+        <iframe width="89%" height="598" src="https://www.youtube.com/embed/vD-E9H2eVj8" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
+    <div class="video-slider">
+        <div class="image-item">
+            <div class="image">
+                <div class="videoslide">
+                      <iframe width="90%" height="650px" src="https://www.youtube.com/embed/7oRgiMlTq7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="image-item">
+            <div class="image">
+                <div class="videoslide">
+                      <iframe width="90%" height="650px" src="https://www.youtube.com/embed/2l_I0CdrYHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="image-item">
+            <div class="image">
+                <div class="videoslide">
+                      <iframe width="90%"  height="650px" src="https://www.youtube.com/embed/ifhIBaskFWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="popup">
+
+        <div class="popup-content">
+            <span class="close-btn"><i class="fas fa-times"></i></span>
+            <p class="descTaiKhoan descChung">
+                Tên tài khoản : Đinh Thị Dung Vy
+            </p>
+            <p class="descStk descChung">
+                STK : 19036080295011
+            </p>
+            <p class="descTenNganHang descChung">
+                Ngân hàng Techcombank chi nhánh Đắk Lắk
+            </p>
+            <p class="descNoiDung descChung">
+                <span style="color: red;">Lưu ý </span>: Nội dung chuyển khoản : Waveex - Họ tên người mua - số điện
+                thoại người mua
+            </p>
+
+            <button class="btn btn-primary" onclick="popupCamOn()">Xong</button>
+
+        </div>
+    </div>
+    <div class="popupThuCamOn" style="display: none;">
+
+        <div class="content_thanks">
+            <span class="close-btn1" onclick="popupclose()"><i class="fas fa-times"></i></span>
+
+
+            <div class="popup-content-cam-on" id="SuKienOnBlur" tabindex="1" onblur="onBlurPopup()">
+
+                <p class="descCamOn descLoiDau">
+                    <span> Visafe Đắk Lắk</span> xin gửi lời cảm ơn đến anh
+                </p>
+                <p class="descTenNguoi">Lê Trung Quý.</p>
+                <p class="descCamOn descLoiHai">
+                      Sử dụng chip Waveex có nghĩa là bạn đã bảo vệ sức khoẻ của
+                    bạn và gia đình trước những vấn đề rất đáng lo ngại của bức xạ điện từ.
+                </p>
+                <p class="descCamOn descLoiBa">
+                      Đồng thời với mỗi chip Waveex bạn cũng đã cùng <span> Visafe Đắk Lắk
+                    </span> đóng góp <span>20 nghìn đồng</span> vào Quỹ của <span>Trung tâm Bảo trợ xã hội tỉnh Đắk
+                        Lắk</span> .
+                </p>
+
+                <p></p>
+                <p class="descCamOn descLoiBon">
+                      Một lần nữa cảm ơn bạn đã tin tưởng và lựa chọn chip Waveex làm người bạn đồng hành.
+                </p>
+                <p class="descCamOn descLoiNam">
+                    Chúng tôi sẽ luôn lắng nghe và trân trọng những đóng góp của bạn để nâng cao chất lượng dịch vụ.
+                </p>
+                <p class="descCamOn descLoiCuoi">
+                    Hãy chung tay cùng chúng tôi lan toả đến nhiều người hơn nữa.
+                </p>
+                <p class="descKhoeManh">
+                      Chúc các bạn luôn khoẻ mạnh, hạnh phúc
+                </p>
+                <h3 class="descKyTen">Ký tên</h3>
+                <p class="descTenShop">Visafe Đắk Lắk.</p>
+
+                <!-- <button class="btn btn-primary">Xong</button> -->
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <section class="section" id="testimonials">
+        <div class="container1">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="center-heading">
+                        <h2> ĐÁNH GIÁ NGƯỜI TIÊU DÙNG </h2>
+                    </div>
+                </div>
+                <div class="col-lg-10 col-md-12 col-sm-12 mobile-bottom-fix-big"
+                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="img/trinh.jpg" alt="Author One"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <h4>Hoàng Mai Trinh - Nhân viên văn phòng.</h4>
+                                <p>“Laptop và điện thoại là 2 thứ luôn song hành cùng tôi bất kỳ lúc nào, nhất là trong
+                                    thời điểm dịch bệnh chuyển đổi hình thức làm việc tại nhà như bây giờ. <b>Waveex</b> như là lớp áo giáp
+                                    giúp
+                                    tôi giảm thiểu những tác hại của Bức xạ điện từ, tôi đã đặt mua cho bản thân và tặng cho 2 cháu của tôi
+                                    ở nhà cũng thường xuyên phải dùng điện thoại để học online, được biết mỗi một chip <b>Waveex</b> khi đặt
+                                    hàng
+                                    qua <b>Visafe Daklak</b> sẽ góp 20k đồng cho quỹ bảo trợ tỉnh Daklak nên tôi rất vui vì ngoài việc bảo
+                                    vệ bản
+                                    thân, gia đình thì còn góp 1 chút sức nho nhỏ của mình để chia sẻ khó khăn với nhiều người hơn”</p>
+                            </div>
+                        </div>
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="./img/thuong.jpg" alt="Second Author"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <h4>Nguyễn Yến Thương - Model freelancer ( người mẫu tự do ) 
+                                </h4>
+                                <p>“Có lẽ các bạn sẽ nghĩ mình là một người mẫu thì sẽ không tiếp xúc với thiết bị
+                                    nhiều vì mình chỉ tạo dáng thôi đúng không ? Nhưng mình cũng là một editor làm hình tại nhà, và điều đó
+                                    khiến mình thường xuyên phải tiếp xúc với thiết bị điện tử để chỉnh sửa ảnh, gần như là 24/24. Một người
+                                    chị mình chơi thân đã giới thiệu chip <b>Waveex</b> cho mình, ban đầu mình nghĩ chỉ là miếng dán thôi,
+                                    nhưng
+                                    khi tìm hiểu kỹ hơn thì mình thật sự rất yên tâm, vẫn biết nó ko thể hoàn toàn chắn tác hại bức xạ điện
+                                    từ nhưng trong điều kiện phải thường xuyên tiếp xúc thì mình thấy là một giải pháp đáng trải nghiệm,
+                                    mình đã nghĩ về em út mình ở nhà, chúng luôn tiếp xúc với điện thoại vì dịch bệnh phải học onl, mình rất
+                                    lo lắng sau khi biết rõ về tác hại của bức xạ điện từ vậy nên hãy cùng mình lan toả giá trị yêu thương
+                                    này tới gia đình của bạn và tất cả mọi người nha.”</p>
+                            
+                            </div>
+                        </div>
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="img/tuyet.jpg" alt="Author Third"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <h4>Đinh Ánh Tuyết- HLV Yoga.</h4>
+                                <p>“Là một người làm về sức khoẻ nên hơn ai hết tôi luôn quan tâm đến việc Chăm sóc bản
+                                    thân bằng việc ăn uống healthy, tập luyện yoga. Dịch bệnh kéo dài khiến tôi phải làm thêm công việc bán
+                                    hàng online, kể từ khi làm việc online tôi phải dùng điện thoại khá nhiều, có những biểu hiện như đau
+                                    đầu, mệt mỏi, khó ngủ nhất là những khi dùng điện thoại trong một thời gian dài. Được giới thiệu về
+                                    <b>Waveex</b> tôi cho rằng việc mua 1 sản phẩm có thể sử dụng 1 thời gian dài và lại giảm thiểu những
+                                    tác động
+                                    của Bức xạ điện từ do các thiết bị điện tử phát ra là điều cần thiết và phù hợp, kết hợp với việc tập
+                                    luyện để cân bằng giữa cơ thể và sức khỏe, lại có thể đóng góp 20k trên mỗi chip <b>Waveex</b> nên tôi
+                                    đã ko
+                                    ngần ngại đặt mua và giới thiệu cho nhiều bạn bè hơn nữa”</p>
+                            </div>
+                        </div>
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="./img/ha.jpg" alt="Fourth Author"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <h4> Võ Thị Hà - Chuyên viên tư vấn BDS T&A Group.</h4>
+                                <p>“ Là một chuyên viên tư vấn tôi thường xuyên giao tiếp với khách hàng bằng điện
+                                    thoại, đồng thời sử dụng laptop để họp là chủ yếu, công việc khiến tôi luôn phải sử dụng các thiết bị
+                                    điện tử. Biết đến <b>Waveex</b> thông qua 1 người bạn giới thiệu, bản thân cũng đã có tìm hiểu thêm và
+                                    yên tâm
+                                    hơn khi chọn <b>Waveex</b> như 1 phương pháp giúp tôi giảm thiểu tác động của Bức xạ điện từ, đồng thời
+                                    sẽ kết
+                                    hợp với các phương pháp làm việc khoa học cũng như chăm tập thể thao hơn để đảm bảo 1 cuộc sống cân
+                                    bằng”</p>
+                            </div>
+                        </div>
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="img/phat.jpg" alt="Fourth Author"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <h4> Nguyễn Lê Thiên Phát - Thiết kế đồ hoạ.</h4>
+                                <p> “Công việc của mình mọi người thường nói Nhàn lắm, mình cảm thấy rất “nhàn” sau khi
+                                    có những dấu hiệu đau đầu, suy nhược, đau nhức mắt, da dẻ cũng trở nên xấu đi, cơ thể luôn trong trại
+                                    thái mệt mỏi vì mình hay ngồi lâu, tập trung vào màn hình máy tính. Đúng lúc đó, con chip <b>Waveex</b>
+                                    mình
+                                    được bạn gái mua tặng, đã giúp mình cải thiện sức khỏe và tỉnh táo hơn kết hợp với việc sắp xếp giờ giấc
+                                    khoa học hơn để làm việc, mình sẽ mua thêm cho gia đình mình sử dụng, vì ba mẹ mình và ông bà cũng tiếp
+                                    xúc với các thiết bị điện tử rất nhiều, mình cảm thấy rất hữu ích, cảm ơn <b>Waveex</b> vì đã tạo ra một
+                                    sản
+                                    phẩm rất giàu giá trị. Cảm ơn <b>Visafe Daklak</b> đã mang <b>Waveex</b> đến gần hơn với thế hệ trẻ Buôn
+                                    Mê tụi mình!”</p>
+                            </div>
+                        </div>
+
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="img/van.jpg" alt="Fourth Author"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <h4> Đinh Thị Hạnh Vân - Thợ Trang Điểm.</h4>
+                                <p> “Là một thợ trang điểm, đã hoạt động trong ngành được 5 năm, mình phải chụp ảnh
+                                    khách hàng & chỉnh sửa ảnh và thiên về hướng sáng tạo nên thường xuyên phải sử dụng điện thoại với tần
+                                    suất liên tục, vốn biết tác hại từ bức xạ điện từ trước giờ nhưng việc tuyên truyền vẫn chưa được đến
+                                    tai nhiều với thế hệ chúng mình, nên mình không nhận thức được hậu quả nguy hiểm từ bức xạ điện từ, và
+                                    mình đã được người nhà giới thiệu về Con chip <b>Waveex</b> cũng như nghe thêm thông tin về tác hại của
+                                    bức xạ
+                                    điện từ, hiện tại mình đã sử dụng con chip trên điện thoại, mình rất thích thiết kế của <b>Waveex</b>
+                                    rất nhỏ
+                                    gọn và cũng rất thời trang đó nha, giá thành hợp lí, thông qua <b>Waveex</b> cũng là một lời cảnh tỉnh
+                                    về sức
+                                    khoẻ & đầy giá trị nhân văn sau khi mình biết mỗi chip <b>Waveex</b> đc bán ra sẽ quyên góp 20k đồng vào
+                                    quỹ
+                                    của trung tâm bảo trợ xã hội tỉnh Đăk Lăk, đừng ngần ngại sở hữu và lần tỏa giá trị này cùng mình nhé!”</p>
+                            </div>
+                        </div>
+
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="img/thanh.jpg" alt="Fourth Author"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <h4> Nguyễn Chí Thanh-Bộ đội.</h4>
+                                <p> “Bản thân là một Quân nhân hay đi làm xa nhà, kể từ khi dịch bệnh 2 con của tôi phải
+                                    học online, dạo gần đây tôi và vợ thấy bé lớn có biểu hiện bệnh về mắt, có tìm hiểu trên báo đài thì đc
+                                    biết bức xạ điện từ cũng là một trong những nguyên nhân, tôi tìm đến <b>Waveex</b> như một giải pháp
+                                    giúp con
+                                    tôi giảm thiểu những tác hại đến từ các Thiết bị điện tử nhất là với tính chất công việc ko thường xuyên
+                                    được ở bên các con thì <b>Waveex</b> là cách tôi bảo vệ các con và gia đình tôi”</p>
+                            </div>
+                        </div>
+
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="img/ai.jpg" alt="Fourth Author"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <h4> Hồ Nhân Ái - Chủ shop đồ tự may.</h4>
+                                <p> “Mình là một chủ shop đồ tự may, công việc của mình vừa kiêm chủ shop & marketing
+                                    cũng như sáng tạo hình ảnh nên mình vừa phải may, rồi chập chờn tối là lao đầu vào làm việc trên Wacom &
+                                    máy tính. Nó kéo dài, mình cũng đặt dấu hỏi rằng tại sao mình luôn đau đầu, khó chịu và hay cãi nhau với
+                                    bạn bè, gia đình… nhưng rồi câu trả lời cũng có ngay khi mình biết tới <b>Waveex</b> , mình thật sự rất
+                                    ấn tượng
+                                    với những thứ tạo ra độc quyền, có 1 không 2,con chip <b>Waveex</b> đã làm được điều đó, khiến mình nhận
+                                    ra
+                                    mình nên trân trọng cuộc sống của mình như thế nào, sức khoẻ phải tốt thì mới có sức làm, có sức gặt hái
+                                    thành công nhé các bạn trẻ ơi!à quên phải chú ý kết hợp thời gian biểu cá nhân khoa học nữa đấy nhé!
+                                    Love all”</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <div class="service-container">
+        <div class="service">
+            <div class="service-main">
+                <div class="service-icon">
+                    <i class="fas fa-shipping-fast"></i>
+                </div>
+                <div class="service-content">
+                    <h1 class="service-content-title">
+                        MIỄN PHÍ GIAO HÀNG TRÊN TOÀN QUỐC
+                    </h1>
+                    <p class="service-content-text">
+                        Chúng tôi hỗ trợ toàn bộ chi phí vận chuyển đến tận tay khách hàng dù bạn ở bất kỳ nơi đâu tại
+                        Việt
+                        Nam.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="service">
+            <div class="service-main">
+                <div class="service-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <div class="service-content">
+                    <h1 class="service-content-title">
+                        BẢO HÀNH 2 NĂM CHÍNH HÃNG
+                    </h1>
+                    <p class="service-content-text">
+                        Nếu có bất kỳ lỗi nào của nhà sản xuất trong quá trình sử dụng chúng tôi sẽ tiến hành bảo hành,
+                        đổi
+                        mới theo đúng chính sách bảo hành của hãng!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="service">
+            <div class="service-main">
+                <div class="service-icon">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <div class="service-content">
+                    <h1 class="service-content-title">
+                        CAM KẾT CHẤT LƯỢNG SẢN PHẨM
+                    </h1>
+                    <p class="service-content-text">
+                        Chất lượng là trên hết. Đối với chúng tôi việc làm khách hàng hài lòng là nghĩa vụ của chúng
+                        tôi.
+                        Hoàn lại toàn bộ số tiền nếu sản phẩm không giống quảng cáo.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="service">
+            <div class="service-main">
+                <div class="service-icon">
+                    <i class="fas fa-box-open"></i>
+                </div>
+                <div class="service-content">
+                    <h1 class="service-content-title">
+                        XEM HÀNG TRƯỚC KHI THANH TOÁN
+                    </h1>
+                    <p class="service-content-text">
+                        Khách hàng được quyền kiểm tra hàng trước khi thanh toán để đảm bảo quyền lợi chính mình. Bạn có
+                        thể
+                        yêu cầu với nhân viên giao hàng khi cần thiết.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="contact_right">
+            <div class="diaChi">
+                <i class="fas fa-map-marker-alt"></i>
+                53/38 Ngô Gia Tự, phường Tân An, Tp.Buôn Ma
+                Thuật, tỉnh Đăk Lăk
+            </div>
+            <div class="sdt">
+                <i class="fas fa-phone-alt"></i>
+                <a title="hotline" href="tel:0856084747">0856084747</a>
+            </div>
+            <div class="emaill">
+                <i class="fas fa-envelope"></i>
+                visafedaklak@gmail.com
+            </div>
+            <div class="website">
+                <i class="fas fa-globe"></i>
+                <a target="_blank" href="https://www.waveex.vn/">https://www.waveex.vn</a>
+            </div>
+            <div class="facebook">
+                <i class="fab fa-facebook-square"></i>
+                <a target="_blank" href="https://www.facebook.com/visafedaklak/">Visafe Daklak</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="phone1">
+        <a href="tel:0856 08 4747">
+            <div class="number"> 0856 08 4747 </div>
+            <div class="quick-alo-ph-circle"></div>
+            <div class="quick-alo-ph-circle-fill"></div>
+            <div class="quick-alo-ph-img-circle"> </div>
+        </a>
+    </div>
+    <a href="#sectionTrangChu"> <i class="fas fa-chevron-up"></i></i></a>
+
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./app.js"></script>
+<!-- <script src="jquery-2.1.0.min.js"></script>     -->
+<script src="owl-carousel.js"></script>
+<script src="custom.js"></script>
+
+</html>
